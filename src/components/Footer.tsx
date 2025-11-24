@@ -22,16 +22,16 @@ const Footer = () => {
               </div>
               <p className="text-gray-300 leading-relaxed">
                 Aspiring web developer with a passion for creating meaningful digital experiences. 
-                Always learning, always growing, always dreaming big.
+                Always learning, always growing, always dreaming big.    
               </p>
               <div className="flex space-x-4">
-                <a href="mailto:karuna@example.com" className="text-gray-300 hover:text-lavender-400 transition-colors duration-300">
+                <a href="mailto:https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" className="text-gray-300 hover:text-lavender-400 transition-colors duration-300">
                   <Mail size={20} />
                 </a>
-                <a href="https://github.com" className="text-gray-300 hover:text-lavender-400 transition-colors duration-300">
+                <a href="https://github.com/karunakumawat23" className="text-gray-300 hover:text-lavender-400 transition-colors duration-300">
                   <Github size={20} />
                 </a>
-                <a href="https://linkedin.com" className="text-gray-300 hover:text-lavender-400 transition-colors duration-300">
+                <a href="hhttps://www.linkedin.com/in/karuna-kumawat23/" className="text-gray-300 hover:text-lavender-400 transition-colors duration-300">
                   <Linkedin size={20} />
                 </a>
               </div>
@@ -53,8 +53,8 @@ const Footer = () => {
             <div className="space-y-4">
               <h3 className="text-lg font-semibold text-white">Contact Info</h3>
               <div className="space-y-2 text-gray-300">
-                <p>📧 karuna.kumawat@example.com</p>
-                <p>📱 +91 9876543210</p>
+                <p>📧 karuna24@navgurukul.org</p>
+                <p>📱 +91 9754640821</p>
                 <p>📍 Ujjain, Madhya Pradesh</p>
               </div>
               <div className="mt-4">

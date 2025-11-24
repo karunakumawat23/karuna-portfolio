@@ -9,7 +9,7 @@ const About = () => {
       description: "Building technology that serves people with genuine care and understanding"
     },
     {
-      icon: <Code className="text-lavender-500\" size={24} />,
+      icon: <Code className="text-lavender-500" size={24} />,
       title: "Creativity",
       description: "Turning imaginative ideas into beautiful, functional digital experiences"
     },
@@ -19,7 +19,7 @@ const About = () => {
       description: "Every line of code written with intention to make a meaningful impact"
     },
     {
-      icon: <Users className="text-peach-500\" size={24} />,
+      icon: <Users className="text-peach-500" size={24} />,
       title: "Growth",
       description: "Consistently learning, improving, and embracing new challenges"
     }
@@ -29,6 +29,7 @@ const About = () => {
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
+
           {/* Section Header */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 font-inter">
@@ -43,15 +44,15 @@ const About = () => {
               <p className="text-gray-700 leading-relaxed mb-6">
                 Hi there! I'm Karuna Kumawat, a passionate and determined beginner web developer based in the historic city of Ujjain, Madhya Pradesh. My journey in technology started with curiosity and has evolved into a deep love for creating meaningful digital experiences.
               </p>
-              
+
               <p className="text-gray-700 leading-relaxed mb-6">
                 Currently, I'm pursuing my B.Tech in Computer Science from Shri Guru Sandipani Institute of Technology & Science, Ujjain, while simultaneously completing a Diploma in Web Development from NavGurukul, Pune. This dual approach has given me both theoretical knowledge and practical skills that I apply to every project I build.
               </p>
-              
+
               <p className="text-gray-700 leading-relaxed mb-6">
                 Coming from a math background in my 12th grade from Dewas, I've always been drawn to logical problem-solving. But what truly excites me is the creative side of coding – the ability to bring ideas to life through clean, simple code and meaningful design.
               </p>
-              
+
               <p className="text-gray-700 leading-relaxed">
                 Although I don't have formal industry experience yet, I've built personal projects that reflect my creativity, learning mindset, and growth. My dream is to use technology to build something impactful and one day become a successful entrepreneur who creates solutions that matter.
               </p>
@@ -81,10 +82,36 @@ const About = () => {
             <p className="text-lg text-gray-600 mb-6">
               I'm always excited to connect with fellow developers, mentors, and anyone who shares a passion for technology and innovation.
             </p>
+
             <button className="bg-gradient-to-r from-mint-500 to-mint-600 hover:from-mint-600 hover:to-mint-700 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 transform hover:scale-105 shadow-lg">
               Let's build something amazing together!
             </button>
+
+            {/* Contact Links */}
+            <div className="mt-8 space-y-3">
+              <p className="text-gray-700 font-medium">
+                📧 Email: 
+                <a href="mailto:https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" className="text-mint-600 hover:underline ml-1">
+                  karuna24@navgurukul.org
+                </a>
+              </p>
+
+              <p className="text-gray-700 font-medium">
+                💻 GitHub: 
+                <a href="https://github.com/karunakumawat23" target="_blank" className="text-mint-600 hover:underline ml-1">
+                  github.com/karunakumawat
+                </a>
+              </p>
+
+              <p className="text-gray-700 font-medium">
+                🔗 LinkedIn: 
+                <a href="https://www.linkedin.com/in/karuna-kumawat23/" target="_blank" className="text-mint-600 hover:underline ml-1">
+                  linkedin.com/in/karunakumawat
+                </a>
+              </p>
+            </div>
           </div>
+
         </div>
       </div>
     </section>
